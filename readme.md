@@ -6,11 +6,12 @@ Striver's A-Z DSA sheet is a comprehensive collection of problems covering essen
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=plastic&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-4CAF50?style=plastic&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=plastic&logo=javascript&logoColor=black) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=plastic&logo=kotlin&logoColor=white)
 
 > why these languages?
-> bcoz it's my choice XD | kidding, my personal tech stack :
-> - C++ for DSA and low level understanding
+> bcoz it's my choice :D  | kidding, its just my personal tech stack :
+> - C++ for DSA and low level understanding 👈🏻(PRIMARY)
 > - Python for backend as it's versatile and AI gimmick
 > - JavaScript there's no any option
 > - Kotlin, experimentation
+> - ... *may add more*
 
  
 
