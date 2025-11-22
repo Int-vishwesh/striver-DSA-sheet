@@ -66,20 +66,23 @@ striver-a-z-dsa-sheet/
 
 ## How to Use ?
 
-#### Running C++ Code
+#### Running C++ code
 1. Ensure you have a C++ compiler installed (e.g., g++).
 2. Navigate to the desired file: `cd cpp/1. basics/lecture 1/`
 3. Compile and run: `g++ io.cpp -o io && ./io`
 
-#### Running JavaScript Code
+#### Running JavaScript code
 1. Ensure Node.js is installed.
 2. Navigate to the desired file: `cd javascript/1. basics/lecture 1/`
 3. Run: `node io.js`
 
-#### Running Python Code
+#### Running Python code
 1. Ensure Python is installed (preferably Python 3.x).
 2. Navigate to the desired file: `cd python/1. basics/lecture 1/`
 3. Run: `python io.py` or `python3 io.py`
+
+#### Running Kotlin code
+1. 
 
 ## Contributions
 

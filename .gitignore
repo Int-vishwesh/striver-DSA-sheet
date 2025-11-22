@@ -1,0 +1,15 @@
+
+# Ignore executables
+*.exe
+*.out
+# Ignore Python cache files
+__pycache__/
+*.pyc
+# Ignore logs
+logs/
+*.log
+#javascript module
+node_modules/
+vendor/
+# Ignore environment files
+.env
