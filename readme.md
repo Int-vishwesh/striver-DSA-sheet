@@ -5,13 +5,13 @@ Striver's A-Z DSA sheet is a comprehensive collection of problems covering essen
 ## Languages Used
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=plastic&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/Python-4CAF50?style=plastic&logo=python&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=plastic&logo=javascript&logoColor=black) ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=plastic&logo=kotlin&logoColor=white)
 
-> why these languages?
-> bcoz it's my choice :D  | kidding, its just my personal tech stack :
-> - C++ for DSA and low level understanding 👈🏻(PRIMARY)
-> - Python for backend as it's versatile and AI gimmick
-> - JavaScript there's no any option
-> - Kotlin, experimentation
-> - ... *may add more*
+Why these languages?
+bcoz it's my choice :D  | kidding, its just my personal tech stack :
+- C++ for DSA and low level understanding 👈🏻(PRIMARY)
+- Python for backend for it's versatility and AI gimmick
+- JavaScript, there's no any other option
+- Kotlin, experimentating
+- ... *may add more*
 
  
 
@@ -19,7 +19,7 @@ Striver's A-Z DSA sheet is a comprehensive collection of problems covering essen
 
 The repository is organized as follows:
 
-```
+```r
 striver-a-z-dsa-sheet/
 ├── cpp/                    # C++ solutions
 │   ├── 1. basics/
@@ -64,6 +64,7 @@ striver-a-z-dsa-sheet/
 - Files are named descriptively based on the problem or concept (e.g., `io.cpp` for input/output basics).
 - The structure allows for easy comparison of solutions across languages for the same problem.
 
+---
 ## How to Use ?
 
 #### Running C++ code
@@ -82,7 +83,9 @@ striver-a-z-dsa-sheet/
 3. Run: `python io.py` or `python3 io.py`
 
 #### Running Kotlin code
-1. 
+1. dont know 
+2. 
+3. 
 
 ## Contributions
 
@@ -90,7 +93,3 @@ This is a personal learning project, but feel free to:
 - Report issues or suggest improvements via GitHub issues.
 - Fork and adapt for your own learning.
 - Share alternative solutions or optimizations.
-
-## Contact
-
-If you have questions or feedback, reach out via GitHub or email.
