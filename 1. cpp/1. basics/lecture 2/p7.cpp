@@ -4,11 +4,11 @@ using namespace std;
 class solution {
 public:
     solution(int n) {
-      for(int i=n; i>=1; i--) {
-        for(int j=1; j<=i; j++) { //spaces
+      for(int i=0; i<=n; i++) {
+        for(int j=1; j<=n-i; j++) { //spaces
           cout<<" ";
         }
-        for(int k=1; k<=(2*(n-i)+1); k++) { //logic = 2*row-1
+        for(int k=1; k<=2*i-1; k++) { //logic = 2*row-1
           cout<<"*"; 
         }
         cout<<endl;
@@ -34,3 +34,24 @@ int main() {
   solution pattern(size);
 
 }
+/*  optimal approach
+
+class Solution {
+public:
+    void printPyramidOptimized(int n) {
+        for (int i = 1; i <= n; i++) {
+            // Calculate number of spaces and stars for this row
+            int spaces = n - i;
+            int stars = 2 * i - 1;
+            
+            for (int j = 1; j <= spaces + stars; j++) {
+                if (j <= spaces) 
+                    cout << " ";
+                else 
+                    cout << "*";
+            }
+            cout << endl;
+        }
+    }
+};
+*/
