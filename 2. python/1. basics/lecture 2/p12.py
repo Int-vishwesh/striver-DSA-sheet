@@ -24,5 +24,5 @@ class Solution:
 if __name__ == "__main__":
     size = int(input("enter size: "))
 
-    print("10. output:")
+    print("1. output:")
     Solution(size)
