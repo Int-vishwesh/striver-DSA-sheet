@@ -1,23 +1,22 @@
 class Solution:
-    def __init__(self, n): #constructor
-        for i in range(n):
-            for j in range(i + 1):
-                print("*", end=" ")
-            print()
-        for i in range(n - 1):
-            for j in range(n - i - 1):
-                print("*", end=" ")
+    def __init__(self, n):
+        for i in range(1, n + 1):
+            # first half
+            for j in range(1, i + 1):
+                print(j, end=' ')
+            # spaces
+            for j in range(1, 2 * (n - i) + 1):
+                print(' ', end=' ')
+            # second half
+            for j in range(i, 0, -1):
+                print(j, end=' ')
             print()
 
 ''' pattern output:
 
-* 
-* *
-* * *
-* * * *
-* * *
-* *
-*
+1         1
+1 2     2 1
+1 2 3 3 2 1
 
 '''
 

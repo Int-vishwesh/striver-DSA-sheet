@@ -4,15 +4,13 @@ using namespace std;
 class solution {
 public:
     solution(int n) {
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                cout << " * ";
-            }
-            cout << endl;
-        }
-        for (int i = n - 1; i >= 1; i--) {
-            for (int j = 1; j <= i; j++) {
-                cout << " * ";
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                if ((i + j) % 2 == 0) {
+                    cout << " 1 ";
+                } else {
+                    cout << " 0 ";
+                }
             }
             cout << endl;
         }
@@ -21,13 +19,10 @@ public:
 
 /* pattern output:
 
-* 
-* *
-* * *
-* * * *
-* * *
-* *
-*
+1
+0 1
+1 0 1
+0 1 0 1
 
 */
 
@@ -36,7 +31,7 @@ int main() {
   cout<<"Enter size of pattern:"<<endl;
   cin>>size;
 
-  cout<<"5. output:"<<endl;
+  cout<<"11. output:"<<endl;
   solution pattern(size);
 
 }
