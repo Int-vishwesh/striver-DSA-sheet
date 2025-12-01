@@ -1,21 +1,22 @@
 class Solution:
     def __init__(self, n): #constructor
-        for i in range(n, 0, -1):
-            for j in range(1, i + 1):
-                print(chr(64 + j), end=' ')
+        for i in range(n):
+            for j in range(i + 1):
+                print(chr(65 + i), end=' ')
             print()
 
 ''' pattern output:
 
-A B C D
-A B C
-A B
 A
+B B
+C C C
+D D D D
 
 '''
 
 if __name__ == "__main__":
     size = int(input("enter size: "))
 
-    print("1. output:")
+    print("16. output:")
     Solution(size)
+    

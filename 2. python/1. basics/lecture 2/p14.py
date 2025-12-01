@@ -1,23 +1,16 @@
 class Solution:
     def __init__(self, n): #constructor
-        for i in range(n):
-            for j in range(i + 1):
-                print("*", end=" ")
-            print()
-        for i in range(n - 1):
-            for j in range(n - i - 1):
-                print("*", end=" ")
+        for i in range(1, n + 1):
+            for j in range(i):
+                print(chr(ord('A') + j), end=' ')
             print()
 
 ''' pattern output:
 
-* 
-* *
-* * *
-* * * *
-* * *
-* *
-*
+A
+A B
+A B C
+A B C D
 
 '''
 
